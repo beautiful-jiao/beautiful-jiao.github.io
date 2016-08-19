@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			.title{
+				width: 306px;
+				height: 42px;
+			}
+			.title a{
+				display: block;
+				float: left;
+				width: 100px;
+				height: 40px;
+				border: solid 1px black;
+				text-align: center;
+				line-height: 40px;
+			}
+			.box{
+				width: 306px;
+				height: 300px;
+			}
+			.red{
+				background: red;
+			}
+			.blue{
+				background: blue;
+			}
+			.green{
+				background: green;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="title">
+			<a href="###" id="btn1">红色</a>
+			<a href="###" id="btn2">蓝色</a>
+			<a href="###" id="btn3">绿色</a>
+		</div>
+		<div class="box red" id="box">
+			
+		</div>
+	</body>
+	<script type="text/javascript">
+		btn1 = document.getElementById("btn1");
+		btn2 = document.getElementById("btn2");
+		btn3 = document.getElementById("btn3");
+		box = document.getElementById("box");
+		btn1.onclick = function(){
+//			box.style.background = 'red';
+			box.className = 'box red';
+		}
+		btn2.onclick = function(){
+//			box.style.background = 'blue';
+			box.className = 'box blue';
+		}
+		btn3.onclick = function(){
+//			box.style.background = 'green';
+			box.className = 'box green';
+		}
+	</script>
+</html>
