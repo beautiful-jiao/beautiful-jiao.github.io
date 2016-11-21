@@ -1936,7 +1936,7 @@ body {
   position: relative;
   visibility: hidden;
   background-color: #fff;
-  padding-top: 10px;
+  /*padding-top: 10px;*/
   padding-bottom: 10px;
   -webkit-transform: translate(0, -100px);
   -moz-transform: translate(0, -100px);
@@ -1959,7 +1959,8 @@ body {
   width: 100%;
   max-width: 1550px;
   padding: 10px 15px;
-  margin: 0 auto; }
+  margin: 0 auto; 
+  background-color: rgba(44,51,64,0.3);}
 
 .head-bg {
   top: 0;
@@ -1979,7 +1980,7 @@ body {
     width: 100%;
     height: 100%;
     position: absolute;
-    background-color: rgba(44, 51, 64, 0.8); }
+    background-color: rgba(44, 51, 64, 0); }
 
 @media (max-width: 767px) {
   .head-bar {
@@ -2709,7 +2710,8 @@ body {
  * 11.2 - Section About
  */
 .section-about {
-  padding-top: 40px;
+  /*padding-top: 40px;*/
+ padding-top: 0px;
   position: relative; }
   .section-about .section-box {
     padding: 0; }
