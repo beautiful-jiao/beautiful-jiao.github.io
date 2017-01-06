@@ -1800,6 +1800,7 @@ img.aligncenter {
 
 .btn-scroll-top {
 	z-index: 10;
+	line-height: 34px;
 	bottom: 35px;
 	right: 40px;
 	position: fixed;
